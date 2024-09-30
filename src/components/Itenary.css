@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.itinerary-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 50px;
+  padding: 10px;
+  overflow-x: auto; 
+}
+
+
+h2 {
+  margin-top: 20px;
+}
+
+.container {
+  margin: 20px;
+  height: calc(100vh - 40px); /* Adjusted margin from top and bottom */
+  overflow: scroll;
+}
+
+.main-content {
+  margin-top: 70px;
+  display: flex;
+  height: 7%;
+  margin-right: 20px;
+}
+#pre  {
+  position: relative;
+  display: flex;
+}
+.google-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 550px;
+}
+
+.itinerary-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: relative;
+  height: 600px;
+  width: 250px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+}
+
+
+.button-container {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.virtual-tour-button {
+  margin-left: 300px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(234, 156, 219), rgb(239, 132, 171));
+  border-radius: 2.4vw;
+}
+
+  
+  
+  
+  
+  
